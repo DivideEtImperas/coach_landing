@@ -174,7 +174,7 @@ p {
 }
 
 .hero-text p {
-	font-size: clamp(1.03rem, 2vw, 1.35rem);
+	font-size: clamp(1.3rem, 2vw, 1.35rem);
 	line-height: 1.55;
 	max-width: 580px;
 	margin-bottom: 30px;

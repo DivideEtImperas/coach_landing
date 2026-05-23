@@ -57,7 +57,7 @@
 				</div>
 
 				<div class="hero-image">
-					<img src="img/hero/hero-photo.jpg" alt="Анастасия Калашникова, семейный психолог">
+					<img src="./img/hero/hero-photo.jpg" alt="Анастасия Калашникова, семейный психолог">
 				</div>
 			</div>
 		</section>
@@ -70,35 +70,35 @@
 					<button class="carousel-btn prev" type="button" aria-label="Предыдущий слайд">&#10094;</button>
 					<div class="carousel">
 						<div class="pain-item">
-							<img src="img/pain/pain-photo1.jpg" alt="Все не то" />
+							<img src="./img/pain/pain-photo1.jpg" alt="Все не то" />
 							<p>Все не то и не станет «своим» никогда</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo2.jpg" alt="Разговоры" />
+							<img src="./img/pain/pain-photo2.jpg" alt="Разговоры" />
 							<p>Разговоры всё чаще превращаются в претензии: «это было твоё решение»</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo3.jpeg" alt="Раздражение" />
+							<img src="./img/pain/pain-photo3.jpeg" alt="Раздражение" />
 							<p>Раздражение друг на друга стало сильнее, чем раньше</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo4.jpeg" alt="Дети адаптация" />
+							<img src="./img/pain/pain-photo4.jpeg" alt="Дети адаптация" />
 							<p>Дети тяжело адаптируются: язык, школа, поведение</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo5.jpg" alt="Упал уровень жизни" />
+							<img src="./img/pain/pain-photo5.jpg" alt="Упал уровень жизни" />
 							<p>Упал уровень жизни — и это давит сильнее, чем вы ожидали</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo6.jpg" alt="Нет друзей" />
+							<img src="./img/pain/pain-photo6.jpg" alt="Нет друзей" />
 							<p>Нет друзей, привычного круга — ощущение вакуума</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo7.jpg" alt="Дом напряжение" />
+							<img src="./img/pain/pain-photo7.jpg" alt="Дом напряжение" />
 							<p>Дом стал местом напряжения, а не отдыха</p>
 						</div>
 						<div class="pain-item">
-							<img src="img/pain/pain-photo8.jpg" alt="Зачем страдать" />
+							<img src="./img/pain/pain-photo8.jpg" alt="Зачем страдать" />
 							<p>Чаще мысли «зачем страдать, ведь можно вернуться?»</p>
 						</div>
 					</div>
@@ -126,8 +126,11 @@
 		<!-- Видео между блоками -->
 		<section class="video-block">
 			<div class="container">
-				<video class="middle-video" autoplay muted loop playsinline controls>
-					<source src="video/Anastasia_Kalashnikova.mp4" type="video/mp4">
+				<video class="middle-video" autoplay muted loop playsinline controls preload="metadata"
+					poster="./img/poster/poster-video.png">
+					<source src="./video/Anastasia_Kalashnikova.webm" type="video/webm">
+					<source src="./video/Anastasia_Kalashnikova.mp4" type="video/mp4">
+					<source src="./video/Anastasia_Kalashnikova.ogv" type="video/ogg">
 					Ваш браузер не поддерживает видео.
 				</video>
 			</div>
@@ -350,7 +353,8 @@
 				</div>
 			</div>
 			<div class="footer-bottom">
-				<p>© Анастасия Калашникова | <a href="#">Политика обработки персональных данных</a></p>
+				<p>© Анастасия Калашникова | <a href="privacy.html" target="_blank" rel="noopener noreferrer">Политика обработки
+						персональных данных</a></p>
 				<nav class="footer-nav">
 					<a href="#services">Услуги</a>
 					<a href="#reviews">Отзывы</a>
